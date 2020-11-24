@@ -1,0 +1,36 @@
+[13-Jun-2019 16:16:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techfact/mypubg.techfacts007.in/dbconnect.php on line 8
+[13-Jun-2019 16:16:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfact/mypubg.techfacts007.in/header.php on line 6
+[13-Jun-2019 16:16:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/techfact/mypubg.techfacts007.in/header.php on line 7
+[13-Jun-2019 16:16:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/techfact/mypubg.techfacts007.in/header.php on line 23
+[13-Jun-2019 16:16:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/techfact/mypubg.techfacts007.in/dbconnect.php on line 8
+[13-Jun-2019 16:16:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfact/mypubg.techfacts007.in/header.php on line 6
+[13-Jun-2019 16:16:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/techfact/mypubg.techfacts007.in/header.php on line 7
+[13-Jun-2019 16:16:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/techfact/mypubg.techfacts007.in/header.php on line 23
+[09-Mar-2020 12:09:17 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[09-Mar-2020 12:09:17 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[09-Mar-2020 12:09:17 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[09-Mar-2020 12:09:17 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:15:27 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:15:27 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:15:27 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:15:27 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:16:19 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:16:19 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:16:19 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:16:19 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:33:57 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:33:57 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:33:57 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:33:57 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:34:02 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:34:02 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[12-Mar-2020 10:34:02 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[12-Mar-2020 10:34:02 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[18-Mar-2020 23:20:39 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[18-Mar-2020 23:20:39 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[18-Mar-2020 23:20:40 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[18-Mar-2020 23:20:40 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 10
+[13-Apr-2020 16:17:43 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[13-Apr-2020 16:17:43 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 17
+[13-Apr-2020 16:17:43 Asia/Kolkata] PHP Notice:  session_start(): A session had already been started - ignoring in /home/techfact/projects.techfacts007.in/pubg/config.php on line 2
+[13-Apr-2020 16:17:43 Asia/Kolkata] PHP Notice:  Constant SITE_URL already defined in /home/techfact/projects.techfacts007.in/pubg/config.php on line 17

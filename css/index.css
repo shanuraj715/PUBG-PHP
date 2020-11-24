@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500'); /*Importing PUBG official font */
+
+body
+{
+	margin: 0px;
+}
+
+::-webkit-scrollbar { 
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa500; 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ffa500, white, #ffa500, white, #ffa500, white);
+  border-radius: 10px;
+
+}
+
+div.header_image
+{
+	background-color: #006656;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+
+img.header_img
+{
+	height: 90px;
+	padding-left: 30px;
+	transition: transform 0.5s;
+}
+
+img.header_img2
+{
+	height: 90px;
+	float: right;
+	transition: transform 0.5s;
+}
+
+img.header_img:hover
+{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+img.header_img2:hover
+{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+	transition-delay: 0.1s;
+}
+
+img.rotate_image
+{
+	animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate
+{
+	0%
+	{
+		transform: rotateY(0deg);
+	}
+	100%
+	{
+		transform: rotateY(360deg);
+	}
+}
+
+
+@media screen and (max-width: 1100px)
+{
+	img.header_img2,img.rotate_image
+	{
+		visibility: hidden;
+	}
+
+	.header_image
+	{
+		height: 115px;
+	}
+}
+
+div.homepage_btn
+{
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+a.homepage_btn
+{
+	color: #ffa500;
+}
+
+a.homepage_btn:hover
+{
+	text-shadow: 2px 2px 10px #006656;
+	color: black;
+}
+
+.p404
+{
+	color: inherit;
+	color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+	div.header_image
+	{
+		background-color: #006656;
+		overflow: hidden;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		max-height: 90px;
+		align-content: center;
+		text-align: center;
+	}
+
+
+
+	img.header_img
+	{
+		height: 85px;
+		transition: transform 0.5s
+	}
+
+	img.header_img2
+	{
+		height: 30px;
+		float: right;
+		transition: transform 0.5s
+	}
+
+	img.header_img:hover
+	{
+		transform: scale(1.1);
+		transition: transform 0.5s
+	}
+
+	img.header_img2:hover
+	{
+		transform: scale(1.1);
+		transition: transform 0.5s;
+		transition-delay: 0.1s;
+	}
+
+	div.homepage_btn
+	{
+		text-align: center;
+		font-family: 'Teko', sans-serif;
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+
+	a.homepage_btn
+	{
+		color: #ffa500;
+	}
+
+	a.homepage_btn:hover
+	{
+		text-shadow: 2px 2px 10px #006656;
+		color: black;
+	}
+
+	.p404
+	{
+		color: inherit;
+		color: red;
+	}
+}

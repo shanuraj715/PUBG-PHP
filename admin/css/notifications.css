@@ -1,0 +1,83 @@
+.notifications_block
+{
+	display: block;
+	text-align: left;
+	margin: 0px 50px 0px 0px;
+}
+
+.unorder_notifications
+{
+
+}
+
+.list_notification_title
+{
+	color: red;
+
+}
+
+.list_notification
+{
+	color: black;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #006656;
+	padding: 0px 10px 0px 10px;
+}
+
+.li_block
+{
+	display: block;
+	margin: 8px 0px 8px 0px;
+	font-size: 20px;
+}
+
+.edit_btn_p
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	background-color: red;
+	border-radius: 0px 15px 15px 0px;
+}
+
+.edit_btn
+{
+	padding: 0px 15px 0px 15px;
+	color: black;
+	margin: 0px;
+}
+
+.li_display_space
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.li_color_id
+{
+	color: pink;
+}
+
+.li_color_list_order
+{
+	color: red;
+}
+
+.li_color_link
+{
+	color: white;
+}
+
+.li_color_url
+{
+	color: orange;
+}
+
+.li_color_value
+{
+	color: yellow;
+}

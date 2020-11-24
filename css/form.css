@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy'); /*Importing font for form text */
+
+xyz
+{
+
+}
+
+label.form
+{
+	color: #ffa500;
+	text-shadow: 1px 1px 30px red;
+	margin-bottom: 15px;
+}
+
+.text_box
+{
+	color: red;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	border-color: #ffa500;
+	width: 300px;
+	transition: width 0.5s;
+	padding-left: 8px;
+}
+
+.text_box:hover
+{
+	box-shadow: 0px 0px 25px #006656;
+	width: 330px;
+	transition: width 0.1s;
+}
+
+.radio_container
+{
+	padding-left: 100px;
+}
+
+#radio_btn
+{
+	zoom: 1.4;
+}
+
+.radio_text
+{
+	color: white;
+	text-shadow: 1px 1px 30px red;
+	margin-bottom: 15px;
+	font-size: 18px;
+	padding-right: 60px;
+}
+
+.radio_seperate
+{
+	display: inline-block;
+}
+
+.form_text_box_area
+{
+	min-width: 50%;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.url_box
+{
+	min-width: inherit;
+	min-width: 300px;
+	max-width: inherit;
+	max-width: 600px;
+	width: 500px;
+}
+
+.url_box:hover
+{
+	width: 530px;
+}
+
+.form_text_box
+{
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 400px;
+	font-size: 18px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 0px 0px 25px #006656;
+	background-color: #dbdbdb;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btns
+{
+	text-align: center;
+}
+
+.btn
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffa500;
+	background-color: #006656;
+	border-color: #ffa500;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	transform: scale(1);
+	transition: transform 0.2s;
+}
+
+.btn:hover
+{
+	transform: scale(1.2);
+	transition: transform 0.2s;
+	box-shadow: 0px 0px 10px #ffa500;
+}
+
+
+
+.form_db_block
+{
+	text-align: center;
+}
+
+.form_db_text
+{
+	font-size: 70px;
+	font-family: 'Merienda', cursive;
+	padding: 0px 5% 0px 5%;
+	margin: 0px;
+	text-align: center;
+	color: #696969;
+	text-shadow: 2px 2px 0px black, -2px -2px 0px black, 0px 0px 15px green;
+	text-align: center;
+}
+
+.form_db_text1
+{
+	font-size: 40px;
+	font-family: 'Merienda', cursive;
+	padding: 0px 5% 0px 5%;
+	margin: 0px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 0px black, -2px -2px 0px black, 0px 0px 15px green;
+	text-align: center;
+}
+
+.form_db_text2
+{
+	font-size: 20px;
+	font-family: 'Merienda', cursive;
+	padding: 60px 5% 20px 5%;
+	margin: 0px;
+	text-align: center;
+	text-align: center;
+}
+
+.form_db_text2_a
+{
+	color: #ffa500;
+	background-color: #001f3f;
+	padding: 0px 20px 5px 20px;
+	border-radius: 0px;
+	transition: padding 2s ease, border-radius 2s, color 2s;
+}
+
+.form_db_text2_a:hover
+{
+	/*transition: padding 1.5s ease;*/
+	/*transition-timing-function: cubic-bezier(0.1, 0.8, 1, 0.1), border-radius 4s;*/
+	padding: 0px 20% 5px 20%;
+	transition: padding 2s ease, border-radius 2s, color 2s;
+	border-radius: 15px;
+	color: white;
+}

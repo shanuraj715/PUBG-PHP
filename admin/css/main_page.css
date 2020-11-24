@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500');
+
+.main_container
+{
+	min-height: 80%;
+	text-align: center;
+}
+
+.rectangle
+{
+	display: inline-block;
+	color: red;
+	overflow: hidden;
+	border: solid black 4px;
+	border-radius: 15px;
+	margin: 20px 20px 20px 20px;
+	text-align: center;
+	min-width: 280px;
+	max-width: 280px;
+	max-height: 120px;
+	min-height: 120px;
+	cursor: pointer;
+	transform: scale(1.0);
+	transition: transform 2s;
+}
+
+a.box_heading
+{
+	margin: 5px 10px 5px 10px;
+	font-size: 45px;
+	font-family: 'Teko', sans-serif;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.rectangle:hover
+{
+	box-shadow: 25px 25px 25px #333;
+	background-color: #333;
+	color: inherit;
+	color: white;
+	border: solid white 4px;
+	transform: scale(1.1);
+	transition: transform 0.3s;
+	transform: rotateX(30deg);
+}
+
+a.box_heading:hover
+{
+	color: white;
+	text-shadow: 5px 5px 4px #448388;
+}
+
+.content_container
+{
+	text-align: center;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+}
+
+.heading
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.content_area
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.err404
+{
+
+}
+
+.err404_img
+{
+	max-width: 100%;
+	min-width: 100%;
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500'); /*Importing PUBG official font */
+@import url('https://fonts.googleapis.com/css?family=Caveat:700&display=swap');
+
+.footer_area
+{
+	min-height: 300px;
+	max-height: 300px;
+	background-color: #00c3ce;
+	text-align: center;
+}
+
+.footer_left
+{
+	margin: 0 15px 0 30px;
+	display: inline-grid;
+	min-width: 45%;
+	max-width: 45%;
+	min-height: 150px;
+	max-height: 150px;
+	text-align: initial;
+	float: left;
+}
+
+.footer_right
+{
+	margin: 0 30px 0 15px;
+	display: inline-grid;
+	min-width: 45%;
+	max-width: 45%;
+	text-align: initial;
+	float: right;
+	min-height: 200px;
+	max-height: 200px;
+}
+
+.footer_title
+{
+	color: #ce004e;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	font-size: 27px;
+	margin: 10px 0 10px 0;
+}
+
+.footer_admin
+{
+	font-family: 'Caveat', cursive;
+	color: white;
+	font-size: 26px;
+}
+
+.footer_text
+{
+	color: white;
+	font-size: 20px;
+	padding: 3px 0 3px 0;
+}
+
+.footer_notice
+{
+	padding-top: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	overflow-y: auto;
+	max-height: 200px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.footer_area
+{
+	position: relative;
+	min-height: initial !important;
+	max-height: initial !important;
+	background-color: #00c3ce;
+	text-align: center;
+	display: grid;
+	z-index: 15;
+	padding-bottom: 20px;
+}
+
+.footer_left
+{
+	margin: 0 2px;
+	display: inline-grid;
+	min-width: initial !important;
+	max-width: initial !important;
+	min-height: initial !important;
+	max-height: initial !important;
+	text-align: initial;
+	float: none;
+}
+
+.footer_right
+{
+	margin: 0 2px;
+	display: inline-grid;
+	min-width: initial !important;
+	max-width: initial !important;
+	text-align: initial;
+	float: none;
+	min-height: initial !important;
+	max-height: initial !important;
+}
+
+.footer_title
+{
+	color: #ce004e;
+	font-family: 'Teko', sans-serif;
+	text-align: center;
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+.footer_admin
+{
+	font-family: 'Caveat', cursive;
+	color: white;
+	font-size: 20px;
+}
+
+.footer_text
+{
+	color: white;
+	font-size: 16px;
+	padding: 3px 0 3px 0;
+}
+
+.footer_notice
+{
+	padding-top: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 16px;
+	overflow-y: initial !important;
+	max-height: initial !important;
+}
+}

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:500'); /*Importing PUBG official font */
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar { 
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ce004e; 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom,#ce004e, #ce004e, #00c3ce, #ce004e, #ce004e);
+  border-radius: 10px;
+
+}
+
+.back_btn
+{
+	display: block;
+	position: fixed;
+	z-index: 6;
+	top: 60px;
+}
+
+.back
+{
+	opacity: 0.3;
+	display: block;
+	margin-left: 10px;
+	padding: 1px 10px 1px 10px;
+	color: white;
+	border: solid red 2px;
+	border-radius: 10px;
+	background: black;
+	text-decoration: none;
+	font-size: 20px;
+	box-shadow: 0 0 15px black;
+	transition: 0.2s;
+}
+
+.back:hover
+{
+	opacity: 1;
+}
+
+.navbar_block
+{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #00c3ce;
+}
+
+.nav_btn_container
+{
+	display: block;
+}
+
+.btns
+{
+	display: inline-block;
+	margin: 3px 8px 3px 8px;
+	display: inline-grid;
+	text-align: center;
+}
+
+
+.small_title
+{
+	color: white;
+	font-size: 15px;
+}
+
+.nav_link
+{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#logout_btn:hover
+{
+	color: white;
+}
+
+span
+{
+	margin: 0;
+	padding: 0;
+}
+
+#background
+{
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.overview_block
+{
+	display: block;
+	border: dashed #ce004e 2px;
+	border-radius: 15px;
+	margin: 0 5px 10px 5px;
+	text-align: center;
+	background-color: rgba(204,204,204,0.5);
+}
+
+.main_title_block
+{
+	margin-top: 55px;
+}
+
+.main_title
+{
+	color: #ce004e;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: underline;
+	padding: 0;
+	margin: 10px 0 10px 0;
+	text-shadow: 0 0 10px black;
+}
+
+.overview_show_block
+{
+	border: dashed #ce004e 2px;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	min-width: 350px;
+	margin: 20px;
+	padding: 10px;
+	box-shadow: inset 5px 0 30px 0 black, 0 0 10px black;
+	filter: grayscale(100%);
+}
+
+.overview_show_block:hover
+{
+	transition: 0.2s;
+	transform: scale(1.05);
+	cursor: pointer;
+	box-shadow: inset 5px 0 30px 0 #008c93, 0 0 10px #ce004e;
+	filter: grayscale(0%);
+}
+
+.over_show_text
+{
+	color: #ce004e;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+}
+
+.lastresult
+{
+	display: block;
+	border: dashed #ce004e 2px;
+	border-radius: 15px;
+	margin: 0 5px 40px 5px;
+	text-align: center;
+	background-color: rgba(204,204,204,0.5);
+}
+
+.result
+{
+	display: block;
+	overflow-x: auto;
+}
+
+table
+{
+	display: inline-block;
+	border-collapse: separate;
+    border-spacing: 0 6px;
+    border: solid #00c3ce 2px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 20px 0 20px 0;
+}
+
+.result_th, th
+{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	background-color: #ce004e;
+	padding: 0 6px 0 6px;
+	color: white;
+}
+
+tr:nth-child(odd)
+{
+	background-color: #00c3ce;
+}
+
+td
+{
+	font-size: 18px;
+}
+
+.td_hover
+{
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.td_hover:hover
+{
+	background: black;
+	color: white;
+}
+
+#number
+{
+	min-width: 40px;
+	text-align: center;
+}
+
+#match_name
+{
+	min-width: 190px;
+	max-width: 190px;
+}
+
+#time, #date
+{
+	min-width: 100px;
+	max-width: 100px;
+}
+
+#rank, #kills
+{
+	text-align: center;
+	min-width: 60px;
+	max-width: 60px;
+}
+
+#reg_fee
+{
+	min-width: 100px;
+	max-width: 100px;
+	text-align: center;
+}
+
+#earning
+{
+	min-width: 120px;
+	max-width: 120px;
+	text-align: left;
+}
+
+.dash_footer
+{
+	display: block;
+	text-align: center;
+	background: #00c3ce;
+}
+
+.footer_text
+{
+	color: #ce004e;
+	font-size: 22px;
+	font-family: 'Teko', sans-serif;
+}
+
+
+
+
+/*Profile*/
+
+.profile_block
+{
+	margin-top: 20px;
+}
+
+.profile_over
+{
+	overflow-x: auto;
+}
+
+.username_show
+{
+	font-size: 30px;
+	color: #ce004e;
+	font-family: 'Concert One', cursive;
+}
+
+.detail_block
+{
+
+}
+
+.text_input_block
+{
+	padding: 10px 0 10 40px;
+}
+
+label
+{
+	font-family: 'Concert One', cursive;
+	font-size: 22px;
+	text-shadow: 0 0 5px white;
+}
+
+input[type=text]
+{
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: gray;
+	margin-left: 10px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 8px;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+input[type=password]
+{
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: red;
+	margin-left: 10px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 8px;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+.show_hide_pass
+{
+	color: white;
+	font-weight: bold;
+	margin-left: 5px;
+	cursor: pointer;
+	text-shadow: 0 0 5px black;
+	font-size: 20px;
+}
+
+.character_span
+{
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: red;
+	margin-left: 10px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 8px;
+	border: solid black 2px;
+	box-shadow: 0 0 5px white;
+	text-shadow: 0 0 5px black;
+	cursor: pointer;
+}
+
+.gender_block, .age_block, .state_block
+{
+	padding: 10px 0 10 60px;
+}
+
+.gender1_block
+{
+	display: inline-block;
+}
+
+.gender_text
+{
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	color: gray;
+	text-shadow: 0 0 5px black;
+}
+
+.age_select
+{
+	color: gray;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	min-width: 80px;
+	padding-left: 15px;
+}
+
+.notice_text_block
+{
+	display: block;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.notice_text
+{
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 15px black;
+	font-weight: bold;
+}
+
+.state_select
+{
+	color: gray;
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+}
+
+.submit_btn
+{
+	display: block;
+	text-align: center;
+}
+
+input[type=submit]
+{
+	color: black;
+	font-family: 'Concert One', cursive;
+	font-size: 25px;
+	padding: 2px 20% 2px 20%;
+}
+
+.help_text_block
+{
+	margin-top: 20px;
+	text-align: right;
+}
+
+.help_text
+{
+	font-size: 18px;
+	color: white;
+}

@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500'); /*Importing PUBG official font */
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap');
+
+
+::-webkit-scrollbar { 
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4414a; 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #4286f4, white, #4286f4, white, #4286f4);
+  border-radius: 10px;
+}
+
+body
+{
+	margin-left: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	min-width: 100%;
+	background: #06031d;
+}
+
+#background
+{
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+.login_body
+{
+	display: inline-block;
+	width: 35%;
+	max-width: 600px;
+}
+
+.login_form
+{
+	color: white;
+	border: solid white 2px;
+	border-top-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+}
+
+.error_show_block
+{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.error
+{
+	color: white;
+}
+
+.form_title_block
+{
+	text-align: center;
+}
+
+.form_title
+{
+	padding: 0;
+	margin: 0;
+	font-size: 55px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+}
+
+.form_label
+{
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 24px;
+}
+
+.image_block
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.user_img
+{
+	min-width: 150px;
+	max-width: 150px;
+	opacity: 0.5;
+	box-shadow: 0 0 15px yellow;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.user_img:hover
+{
+	opacity: 1;
+	box-shadow: 0 0 30px white;
+}
+
+.form_text, .age_select, .state_select, .gender_text
+{
+	color: #00c3ce;
+	font-family: 'Teko', sans-serif;
+	font-size: 24px;
+	background-color: transparent;
+	border-radius: 10px;
+	margin: 4px 0 4px 5px;
+	padding: 0 5px 0 5px;
+}
+
+input[type=radio]
+{
+	transform: scale(1.5);
+	margin: 0 5px 0 20px;
+}
+
+.age_block, .gender_block
+{
+	/*display: inline-block;*/
+}
+
+.state_block
+{
+	margin: 
+}
+
+option
+{
+	color: black;
+	background-color: gray;
+	font-size: 26px;
+}
+
+.mode_change_block
+{
+	text-align: center;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.mode_change
+{
+	color: white;
+	font-size: 20px;
+
+}
+
+.link
+{
+	color: #00c3ce;
+}
+
+.submit_btn
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.form_btn
+{
+	color: #00c3ce;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 0 5px 0 5px;
+	background-color: black;
+	font-family: 'Shojumaru', cursive;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+.form_btn:hover
+{
+	color: white;
+}
+
+.back_btn_block
+{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.back_btn
+{
+	color: black;
+	font-size: 22px;
+	text-decoration: none;
+	background: #00c3ce;
+	padding: 4px 10px 4px 10px;
+	border-radius: 15px;
+	transition: 0.6s ease-in-out;
+}
+
+.back_btn:hover
+{
+	padding: 4px 60px 4px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.login_body
+{
+	display: inline-block;
+	width: initial !important;
+	max-width: 600px;
+}
+
+.login_form
+{
+	color: white;
+	border: solid white 2px;
+	border-top-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	padding: 5px;
+	background: rgba(0,0,0,0.7);
+}
+
+.error_show_block
+{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.error
+{
+	color: white;
+}
+
+.form_title_block
+{
+	text-align: center;
+}
+
+.form_title
+{
+	padding: 0;
+	margin: 0;
+	font-size: 35px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	cursor: pointer;
+}
+
+.form_label
+{
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 22px;
+}
+
+.image_block
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.user_img
+{
+	min-width: 100px;
+	max-width: 100px;
+	opacity: 0.5;
+	box-shadow: 0 0 15px yellow;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.user_img:hover
+{
+	opacity: 1;
+	box-shadow: 0 0 30px white;
+}
+
+.form_text, .age_select, .state_select, .gender_text
+{
+	color: #00c3ce;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+	background-color: transparent;
+	border-radius: 10px;
+	margin: 4px 0 4px 5px;
+	padding: 0 5px 0 5px;
+}
+
+.form_text{
+	outline: none;
+}
+
+input[type=radio]
+{
+	transform: scale(1.5);
+	margin: 0 5px 0 20px;
+}
+
+.age_block, .gender_block
+{
+	/*display: inline-block;*/
+}
+
+.state_block
+{
+	margin: 
+}
+
+option
+{
+	color: black;
+	background-color: gray;
+	font-size: 20px;
+}
+
+.mode_change_block
+{
+	text-align: center;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.mode_change
+{
+	color: white;
+	font-size: 16px;
+
+}
+
+.link
+{
+	color: #00c3ce;
+}
+
+.submit_btn
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.form_btn
+{
+	color: #00c3ce;
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 0 5px;
+	background-color: black;
+	font-family: 'Shojumaru', cursive;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+.form_btn:hover
+{
+	color: white;
+}
+
+.back_btn_block
+{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.back_btn
+{
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+	background: #00c3ce;
+	padding: 4px 10px 4px 10px;
+	border-radius: 15px;
+	transition: 0.6s ease-in-out;
+}
+
+.back_btn:hover
+{
+	padding: 4px 60px 4px 60px;
+}
+}

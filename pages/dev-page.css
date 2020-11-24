@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+
+::-webkit-scrollbar { 
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa500; 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ffa500, white, #ffa500, white, #ffa500, white);
+  border-radius: 10px;
+
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+video
+{
+	position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+section
+{
+	height: 100vh;
+	/*background: #000;*/
+}
+
+.my_image_block
+{
+	text-align: center;
+	animation: imgmove 2s linear forwards;
+}
+
+@keyframes imgmove
+{
+	0%
+	{
+		
+	}
+	50%
+	{
+		min-height: 280px;
+	}
+	100%
+	{
+		min-height: 200px;
+		max-height: 200px;
+	}
+}
+
+.my_img
+{
+	animation: imgmove 2s linear forwards;
+	z-index: 2;
+	position: relative;
+	transition: transform 1s;
+}
+
+.my_img:hover
+{
+	transform: scale(1.2);
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;	color: white;
+	text-align: center;
+	width: 100%;
+	font-size: 122px;
+	font-family: 'Bungee Inline', cursive;
+	letter-spacing: 0;
+	cursor: pointer;
+	animation: upset 2s linear forwards;
+}
+
+@keyframes upset
+{
+	0%
+	{
+		top: 30%;
+	}
+	40%
+	{
+		top: 30%;
+	}
+	100%
+	{
+		top: 18%;
+	}
+}
+
+
+
+span
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1 span
+{
+	display: inline-block;
+	animation: animate 1s linear forwards;
+	opacity: 0;
+}
+
+@keyframes animate {
+	0%
+	{
+		opacity: 0;
+		transform: rotateX(90deg);
+		filter: blur(10px);
+		text-shadow: 0px 0px 25px white;
+
+	}
+	50%
+	{
+		color: black;
+	}
+	100%
+	{
+		opacity: 1;
+		transform: rotateX(0deg);
+		filter: blur(0);
+		color: white;
+		text-shadow: 0px 0px 0px white;
+	}
+}
+
+h1 span:nth-child(1)
+{
+	animation-delay: 0.2s;
+}
+h1 span:nth-child(2)
+{
+	animation-delay: 0.4s;
+}
+h1 span:nth-child(3)
+{
+	animation-delay: 0.6s;
+}
+h1 span:nth-child(4)
+{
+	animation-delay: 0.8s;
+}
+h1 span:nth-child(5)
+{
+	animation-delay: 1s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay: 1.2s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay: 1.4s;
+}
+h1 span:nth-child(9)
+{
+	animation-delay: 1.6s;
+}
+

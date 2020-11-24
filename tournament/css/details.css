@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+
+
+
+.t_details_block1
+{
+	padding: 5px 0;
+	background: rgba(0,0,0,0.1);
+}
+
+.top_image_block
+{
+	text-align: center;
+}
+
+.top_image
+{
+	max-width: 40%;
+}
+
+.details_block
+{
+	padding: 20px;
+}
+
+.line_block
+{
+	margin: 8px 0 8px 0;
+	background: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 3px 10px 3px 10px;
+}
+
+.line_block:hover, .text_right:hover, #match_name:hover{
+	background: #00a08e;
+	color: white;
+}
+
+.match_name1
+{
+	color: #7c003e;
+	font-family: 'Fredoka One', cursive;
+	font-size: 21px;
+}
+
+#match_name
+{
+	color: red;
+}
+
+.text_right
+{
+	padding-left: 20px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 21px;
+
+	font-style: italic;
+}
+
+.read_carefully_block
+{
+	text-align: center;
+	display: block;
+	margin: 20px
+}
+
+.readme
+{
+	color: purple;
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+	/*text-shadow: 0 0 10px rgba(0, 195, 206, 1);*/
+	cursor: pointer;
+	transition: 0.2s;
+	font-style: italic;
+}
+
+.readme:hover
+{
+	/*text-shadow: 0 0 10px rgba(206, 0, 78, 1);*/
+}
+
+.regfee
+{
+	margin: 8px 0;
+	background: rgba(255,0,0,0.7);
+	border-radius: 10px;
+	padding: 3px 10px;
+}
+
+.regfee_text
+{
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	font-size: 21px;
+}
+
+.emulator
+{
+	margin: 8px 0;
+	background: rgba(100,255,50,1);
+	border-radius: 10px;
+	padding: 3px 10px 3px 10px;
+}
+
+.emulator_text
+{
+	color: black;
+	font-family: 'Fredoka One', cursive;
+	font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar
+{
+	width: 25%;
+	background-color: initial;
+	overflow-x: hidden;
+	max-height: 600px;
+	overflow-y: auto;
+	margin: 25px 10px 20px 20px;
+	/*float: right;*/
+	min-width: 320px;
+	box-shadow: 0 0 5px blue;
+}
+
+.matches_title_block
+{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.details_block
+{
+	display: inline-block;
+}
+
+.details_subblock1
+{
+	display: grid;
+}
+
+.match_block
+{
+	min-width: 100%;
+	max-width: 100%;
+	margin: 20px 5px 5px 5px;
+	padding: 5px 0 10px 0;
+	border-radius: 20px;
+	box-shadow: 0 0 10px black, inset 0 0 10px 8px white;
+}
+
+
+.match_block:nth-child(even)
+{
+
+	background: rgba(0, 195, 206, 1);
+}
+
+.match_block:nth-child(odd)
+{
+
+	background: #d6ffa0;
+}
+
+.line1, .line2
+{
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+
+.match_title
+{
+	display: block;
+	color: black;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+}
+
+.matches1
+{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.matches2
+{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.more_btn_block
+{
+	display: block;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.more_btn
+{
+	color: white;
+	background: #515151;
+	border-radius: 10px;
+	padding: 5px 10% 5px 10%;
+	text-decoration: none;
+}
+
+.more_btn:hover{
+	background: red;
+}
+
+.register_btn_block
+{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.match_register_btn
+{
+	color: black;
+	background: white;
+	padding: 0 6% 0 6%;
+	cursor: pointer;
+	/*font-family: 'Teko', sans-serif;*/
+	font-family: 'Kaushan Script', cursive;
+	font-size: 25px;
+	/*text-shadow: 0 0 15px green;*/
+	transition: 0.5s;
+	border-radius: 20px;
+	border-top: dashed #d8b800 2px;
+	border-right: dashed #00d8bf 2px;
+	border-bottom: dashed #d8b800 2px;
+	border-left: dashed #00d8bf 2px;
+	text-decoration: none;
+}
+
+.match_register_btn:hover{
+	padding: 0 10% 0 10%;
+	border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.t_details_block1
+{
+	padding: 5px 0;
+	background: rgba(0,0,0,0.1);
+}
+
+.top_image_block
+{
+	text-align: center;
+}
+
+.top_image
+{
+	max-width: 85%;
+}
+
+.details_block
+{
+	padding: 4px;
+}
+
+.line_block
+{
+	margin: 8px 0 8px 0;
+	background: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 3px 10px 3px 10px;
+}
+
+.line_block:hover, .text_right:hover, #match_name:hover{
+	background: #00a08e;
+	color: white;
+}
+
+.match_name1
+{
+	color: #7c003e;
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
+}
+
+#match_name
+{
+	color: red;
+}
+
+.text_right
+{
+	padding-left: 5px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.read_carefully_block
+{
+	text-align: center;
+	display: block;
+	margin: 20px
+}
+
+.readme
+{
+	color: purple;
+	font-size: 22px;
+	font-family: 'Teko', sans-serif;
+	/*text-shadow: 0 0 10px rgba(0, 195, 206, 1);*/
+	cursor: pointer;
+	transition: 0.2s;
+	font-style: italic;
+}
+
+.readme:hover
+{
+	/*text-shadow: 0 0 10px rgba(206, 0, 78, 1);*/
+}
+
+.regfee
+{
+	margin: 8px 0;
+	background: rgba(255,0,0,0.7);
+	border-radius: 10px;
+	padding: 3px 10px;
+}
+
+.regfee_text
+{
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
+}
+
+.emulator
+{
+	margin: 8px 0;
+	background: rgba(100,255,50,1);
+	border-radius: 10px;
+	padding: 3px 10px;
+}
+
+.emulator_text
+{
+	color: black;
+	font-family: 'Fredoka One', cursive;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar
+{
+	width: 25%;
+	background-color: initial;
+	overflow-x: hidden;
+	max-height: 600px;
+	overflow-y: auto;
+	margin: 25px 10px 20px 20px;
+	float: none !important;
+	min-width: 320px;
+	box-shadow: 0 0 5px blue;
+}
+
+.matches_title_block
+{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.details_block
+{
+	display: block;
+}
+
+.details_subblock1
+{
+	display: grid;
+}
+
+.match_block
+{
+	min-width: 100%;
+	max-width: 100%;
+	margin: 20px 5px 5px 5px;
+	padding: 5px 0 10px 0;
+	border-radius: 20px;
+	box-shadow: 0 0 10px black, inset 0 0 10px 8px white;
+}
+
+
+.match_block:nth-child(even)
+{
+
+	background: rgba(0, 195, 206, 1);
+}
+
+.match_block:nth-child(odd)
+{
+
+	background: #d6ffa0;
+}
+
+.line1, .line2
+{
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 5px;
+}
+
+.match_title
+{
+	display: block;
+	color: black;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+}
+
+.matches1
+{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.matches2
+{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+.more_btn_block
+{
+	display: block;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.more_btn
+{
+	color: white;
+	background: #515151;
+	border-radius: 10px;
+	padding: 5px 10% 5px 10%;
+	text-decoration: none;
+}
+
+.more_btn:hover{
+	background: red;
+}
+
+.register_btn_block
+{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.match_register_btn
+{
+	color: black;
+	background: white;
+	padding: 0 6% 0 6%;
+	cursor: pointer;
+	/*font-family: 'Teko', sans-serif;*/
+	font-family: 'Kaushan Script', cursive;
+	font-size: 25px;
+	/*text-shadow: 0 0 15px green;*/
+	transition: 0.5s;
+	border-radius: 20px;
+	border-top: dashed #d8b800 2px;
+	border-right: dashed #00d8bf 2px;
+	border-bottom: dashed #d8b800 2px;
+	border-left: dashed #00d8bf 2px;
+	text-decoration: none;
+}
+
+.match_register_btn:hover{
+	padding: 0 10% 0 10%;
+	border-radius: 0;
+}
+
+}

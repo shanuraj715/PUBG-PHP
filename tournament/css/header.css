@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500'); /*Importing PUBG official font */
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar { 
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ce004e; 
+  border-radius: 10px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom,#ce004e, #ce004e, #00c3ce, #ce004e, #ce004e);
+  border-radius: 10px;
+
+}
+
+.t_header_block
+{
+	display: block;
+}
+
+.header_content_block
+{
+	text-align: center;
+	padding: 20px 0 20px 0;
+	background-color: #e6f6f7;
+}
+
+.t_title
+{
+	margin: 10px 0 0px 0;
+	padding: 0;
+	font-family: 'Teko', sans-serif;
+	font-size: 45px;
+}
+
+.t_subtitle
+{
+	font-size: 20px;
+	color: #757575;
+}
+
+.navigation_block
+{
+	overflow: hidden;
+	background-color: #00c3ce;
+	padding: 8px 30px 8px 30px;
+	z-index: 5;
+}
+
+.link_block
+{
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+
+.nav_link
+{
+	font-size: 20px;
+	color: white;
+	font-family: 'Concert One', cursive;
+	transition: 0.2s;
+}
+
+.nav_link:hover
+{
+	color: black;
+	border-radius: 5px;
+}
+
+#logout_btn
+{
+	color: black;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.time_block
+{
+	display: block;
+	text-align: center;
+}
+
+.display_time
+{
+	font-family: 'Concert One', cursive;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.display_time:hover
+{
+	color: #ce004e;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+.t_header_block
+{
+	display: block;
+}
+
+.header_content_block
+{
+	text-align: center;
+	padding: 8px 0;
+	background-color: #e6f6f7;
+}
+
+.t_title
+{
+	margin: 8px 0 0 0;
+	padding: 0;
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+}
+
+.t_subtitle
+{
+	font-size: 18px;
+	color: #757575;
+}
+
+.navigation_block
+{
+	overflow: hidden;
+	background-color: #00c3ce;
+	padding: 4px 2px;
+	z-index: 5;
+}
+
+.link_block
+{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.nav_link
+{
+	font-size: 16px;
+	color: white;
+	font-family: 'Concert One', cursive;
+	transition: 0.2s;
+}
+
+.nav_link:hover
+{
+	color: black;
+	border-radius: 5px;
+}
+
+#logout_btn
+{
+	color: black;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.time_block
+{
+	display: block;
+	text-align: center;
+}
+
+.display_time
+{
+	font-family: 'Concert One', cursive;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.display_time:hover
+{
+	color: #ce004e;
+}
+}

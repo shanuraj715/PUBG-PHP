@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+
+.skin_show_block
+{
+	border: solid #00d699 2px;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 3% 5% 3% 5%;
+}
+
+.skin_title_block
+{
+	display: block;
+	padding: 4px 20px 4px 20px;
+	overflow: hidden;
+}
+
+.skin_title
+{
+	font-family: 'Courgette', cursive;
+	color: white;
+	font-size: 34px;
+	cursor: pointer;
+}
+
+.skin_title:hover
+{
+	font-family: 'Merienda', cursive;
+	font-size: 29px;
+}
+
+.skin_img_block
+{
+	padding: 30px 30px 30px 30px;
+}
+
+.skin_img
+{
+	width: 76%;
+	max-width: 500px;
+	border-radius: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+.skin_img:hover
+{
+	transform: scale(1.1);
+}
+
+.skin_seperate
+{
+	border: 2px dashed #ff82af;
+	border-radius: 5px;
+	margin: 0 5% 0 5%;
+}
+
+@media screen and (max-width: 600px)
+{
+	.skin_show_block
+	{
+		border: solid #00d699 2px;
+		border-radius: 20px;
+		overflow: hidden;
+		margin: 3% 5% 3% 5%;
+	}
+
+	.skin_title_block
+	{
+		display: block;
+		padding: 4px 20px 4px 20px;
+		overflow: hidden;
+	}
+
+	.skin_title
+	{
+		font-family: 'Courgette', cursive;
+		color: white;
+		font-size: 21px;
+		cursor: pointer;
+	}
+
+	.skin_title:hover
+	{
+		font-family: 'Merienda', cursive;
+		font-size: 19px;
+	}
+
+	.skin_img_block
+	{
+		padding: 10px 5px 10px 5px;
+	}
+
+	.skin_img
+	{
+		width: 90%;
+		border-radius: 10px;
+		transition: 0.2s ease-in-out;
+	}
+
+	.skin_img:hover
+	{
+		transform: scale(1.22);
+	}
+
+	.skin_seperate
+	{
+		border: 2px dashed #ff82af;
+		border-radius: 5px;
+		margin: 0 5% 0 5%;
+	}
+}

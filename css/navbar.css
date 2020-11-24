@@ -1,0 +1,177 @@
+.navbar_area
+{
+	/*background-color: #009982;*/
+	background-color: black;
+	width: 100%;
+	overflow: hidden;
+}
+
+.nav_btn_res
+{
+	visibility: hidden;
+	display: none;
+}
+
+.nav_res
+{
+	visibility: hidden;
+}
+
+.navbar_area:hover
+{
+	filter: opacity(1);
+}
+
+a.nav_link
+{
+	text-align: center;
+	font-size: 22px;
+	color: #ffa500;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	transform-origin: center;
+	transition: transform 0.8s;
+}
+
+a.nav_link:hover
+{
+	background-color:#006656;
+	text-decoration: underline;
+	transition: font-size 1s;
+	transform: scale(1.12);
+	color: white;
+	/*filter: blur(1px);*/
+	transform-origin: center;
+	transition: transform 0.4s;
+	display: inline-block;
+}
+
+a.navbar_home
+{
+	background-color: #006656;
+	color: #42eef4;
+	width: 80px;
+}
+a.navbar_home:hover
+{
+	color: #ffa500;
+
+}
+
+a.navbar_admin
+{
+	float: right;
+	background-color: #006656;
+	width: 80px;
+}
+a.navbar_admin:hover
+{
+	float: right;
+	color: #42eef4;
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.navbar_area
+	{
+		background-color: black;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.nav_btn_res
+	{
+		visibility: visible;
+		display: block;
+		padding: 0;
+		margin: 0;
+		height: 50px;
+		max-height: 40px;
+		min-height: 40px;
+		background: #006656;
+		text-align: right;
+	}
+
+	.nav_res
+	{
+		padding: 0px 10px 0px 10px;
+		display: block;
+		margin: 0;
+		visibility: visible;
+		background-color: #006656;
+		text-align: right;
+		min-height: 40px;
+		max-height: 40px;
+	}
+
+	#navbar_vis
+	{
+		display: none;
+	}
+
+
+
+	.navbar_area:hover
+	{
+		filter: opacity(1);
+	}
+
+	a.nav_link
+	{
+		text-align: center;
+		font-size: 18px;
+		color: #ffa500;
+		float: left;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-decoration: none;
+		font-family: 'Teko', sans-serif;
+		transform-origin: center;
+		transition: transform 0.8s;
+	}
+
+	a.nav_link:hover
+	{
+		background-color:#006656;
+		text-decoration: underline;
+		transition: font-size 1s;
+		transform: scale(1.12);
+		color: white;
+		/*filter: blur(1px);*/
+		transform-origin: center;
+		transition: transform 0.4s;
+		display: inline-block;
+	}
+
+	a.navbar_home
+	{
+		background-color: #006656;
+		color: #42eef4;
+		width: 50px;
+	}
+	a.navbar_home:hover
+	{
+		color: #ffa500;
+
+	}
+
+	a.navbar_admin
+	{
+		float: right;
+		background-color: #006656;
+		width: 50px;
+	}
+	a.navbar_admin:hover
+	{
+		float: right;
+		color: #42eef4;
+	}
+}

@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /pubg
+
+RewriteRule ^notifications notifications.php [NC,L]
+
+RewriteRule ^blog/post/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) blog/posts.php?id=$1&title=$2 [QSA,L]
+RewriteRule ^blog/post/([0-9a-zA-Z]+) blog/posts.php?id=$1 [NC,L]
+RewriteRule ^season6 season.php [NC,L]
+
+
+Options -Indexes
